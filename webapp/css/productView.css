@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	margin:0;
+	font-family: arial, sans-serif;
+}
+/*Image sizes and padding*/
+#login {
+	height:40px;
+	margin-right:10px;
+}
+#cart {
+	height:40px;
+}
+/*Container Edits*/
+#misc {
+	padding-top:20px;
+	padding-right:50px;
+}
+#product-pic
+{
+	margin: 30px;
+}
+#text 
+{
+	margin: 30px;
+}
+#cart-bttn
+{
+
+	margin-left: 30px;
+}
+#product-info-wrapper{
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #aaaaaa;
+  margin: 10px;
+  height: 500px;
+  width: 550px;
+}
+/* Website grid layout set up */
+.column {
+	float:left;
+}
+.size10 {
+  	width: 10%;
+}
+.size17{
+	width: 17%;
+}
+.size33{
+	width: 22%;
+	margin: 30px;
+}
+.size50 {
+  	width: 50%;
+}
+.size75 {
+	width: 75%;
+}
+.size90 {
+	width: 90%;
+}
+.rightfloat {
+	float:right;
+}
+/* Clear floats after the columns */
+.mainContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#header:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+#text:after {
+	content: "";
+	display: table;
+	clear:both;
+}

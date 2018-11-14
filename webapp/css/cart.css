@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	margin:0;
+	font-family: arial, sans-serif;
+}
+#cart-list{
+    width: 100%;
+    margin: 50px;
+}
+#pay{
+    float: right;
+    margin-right: 30%;
+}
+#login {
+    height:40px;
+    margin-right:10px;
+}
+#cart {
+    height:40px;
+}
+#misc {
+    padding-top:20px;
+    padding-right:50px;
+}
+/* Website grid layout set up */
+.column {
+	float:left;
+}
+.column1{
+    width:17%;
+}
+.column2{
+    width:33%;
+}
+.column3{
+    width:17%;
+}
+.size10 {
+  	width: 10%;
+}
+.size17{
+	width: 17%;
+}
+.size33{
+    width:33%;
+}
+.size50 {
+  	width: 50%;
+}
+.size75 {
+	width: 75%;
+}
+.size90 {
+	width: 90%;
+}
+.rightfloat {
+	float:right;
+}
+#header:after {
+	content: "";
+    display: table;
+    clear: both;
+}

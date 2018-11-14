@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Welcome to Edstore! - Update</title>
+		<script src="js/accountInfo.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/accountInfo.css">
+	</head>
+	<body onload="loadInformation()">
+	<div class="website-wrapper">
+		<div id="header">
+			<div id="logo-wrapper" class="column">
+				<a href="index.html"><img id="logo" src="css/images/logo.jpg"></a>
+			</div>
+			<div class="rightfloat" id="misc">
+				<a href="#" onclick="director1()"><img id="login" src="css/images/login.jpg"></a>
+				<a href="#" onclick="director2()"><img id="cart" src="css/images/cart.jpg"></a>
+			</div>
+		</div>
+		<hr>
+		<div class="size50 column" id="info-wrapper">
+			<div id="current-info" class ="size50 column">
+				<h1>Current Info</h1>
+				<p id="cemail"></p>
+				<p id="cfname"></p>
+				<p id="clname"></p>
+			</div>
+			<div id="update" class="size50 column">
+				<h1>Update</h1>
+				<p>Email<br>
+					<input type="text" style="width:40%" id="email" placeholder="E-mail"></p>
+				<p>First Name <br>
+					<input type="text" style="width:40%" id="fname" placeholder="First Name"></p>
+				<p>Last Name <br>	
+					<input type="text" style="width:40%" id="lname" placeholder="Last Name"></p>
+				<input type="submit" name="update" value="Update" onclick="updateAccount()">
+			</div>
+		</div>
+		<div id="purchased-items" class="size33 column">
+			<h1 id="purchaseheader">Purchase History</h1>
+			<table id="purchase-history">
+				<th class="size33">Product Image</th>
+				<th class="size33">Name</th>
+				<th class="size33">Price</th> 
+			</table>
+		</div>
+	</div>
+	</body>
+</html>

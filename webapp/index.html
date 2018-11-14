@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Welcome to Edstore! - Homepage</title>
+		<script src="js/productList.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body onload="loadDefaultProductList()">
+		<div class="website-wrapper">
+			<div id="header">
+				<div id="logo-wrapper" class="column">
+					<a href="index.html"><img id="logo" src="css/images/logo.jpg"></a>
+				</div>
+				<div class="rightfloat" id="misc">
+					<a href="#" onclick="director1()"><img id="login" src="css/images/login.jpg"></a>
+					<a href="#" onclick="director2()"><img id="cart" src="css/images/cart.jpg"></a>
+				</div>
+			</div>
+			<hr>
+			<div id="mainContainer"> 
+				<div class="size17 column" id="sidebar">
+					<div><strong>View:</strong></div>
+					<label class="switch">
+						<input type="checkbox" onclick="switchView()" name="viewButton" id="viewButton">
+						<span class="slider round"></span>
+					</label>
+				</div>
+				<div class="size75 column" id="product-list">
+					<div id="search-bar-wrapper">
+						<input type="text" id="searchbar" placeholder="Search for products..">
+						<div id="search-icon-wrapper"><img id="search-icon" style="height: 24px" src='css/images/search.jpg' onclick="searchProduct()">
+						</div>
+					</div>
+					<table style="width:100%" id ="product-list-table">
+					  <tr>
+					  	<th style="width:14%">Image</th>
+					    <th style="width:14%">Product Name</th>
+					    <th style="width:14%">Price</th> 
+					    <th style="width:14%">Brand</th>
+					    <th style="width:14%">Size</th>
+					    <th style="width:14%">Color</th>
+					    <th style="width:14%">Gender</th>
+					  </tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

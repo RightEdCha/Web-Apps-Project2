@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Welcome to Edstore! - Your Cart</title>
+		<script src="js/cart.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/cart.css">
+	</head>
+	<body onload="loadCart()">
+	<div class="website-wrapper">
+		<div id="header">
+			<div id="logo-wrapper" class="column">
+				<a href="index.html"><img id="logo" src="css/images/logo.jpg"></a>
+			</div>
+			<div class="rightfloat" id="misc">
+				<a href="#" onclick="director1()"><img id="login" src="css/images/login.jpg"></a>
+				<a href="#" onclick="director2()"><img id="cart" src="css/images/cart.jpg"></a>
+			</div>
+		</div>
+		<hr>
+		<table id="cart-list">
+		</table>
+		</br>
+		<div id="pay">
+			<div id="price">
+				<p id="subtotal"></p>
+				<p>Tax: 8%</p>
+				<p id="total-price"></p>
+			</div>
+			<input type="submit" value="Checkout" id="checkout" onclick="checkout()">
+		</div>
+	</div>
+	</body>
+</html>

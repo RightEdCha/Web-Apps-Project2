@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	margin:0;
+	font-family: arial, sans-serif;
+}
+#info-wrapper {
+	border: 1px solid #ddd;
+	background-color:#ddd;
+    margin: 50px;
+    padding-bottom: 195px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+#login {
+    height:40px;
+    margin-right:10px;
+}
+#cart {
+    height:40px;
+}
+/*Container Edits*/
+#misc {
+    padding-top:20px;
+    padding-right:50px;
+}
+#purchaseheader {
+    margin-top:95px;
+}
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* Website grid layout set up */
+.column {
+	float:left;
+}
+.size10 {
+  	width: 10%;
+}
+.size17{
+	width: 17%;
+}
+.size33{
+    width:33%;
+}
+.size50 {
+  	width: 50%;
+}
+.size75 {
+	width: 75%;
+}
+.size90 {
+	width: 90%;
+}
+.rightfloat {
+	float:right;
+}
+#header:after {
+	content: "";
+    display: table;
+    clear: both;
+}
